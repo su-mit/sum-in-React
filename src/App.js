@@ -16,10 +16,12 @@ const App = () => {
   );
 
   const set1 = (e) => {
+    // Updating the state of value 1
     setValue1(e.target.value);
   };
 
   const set2 = (e) => {
+    // Updating the state of value 2
     setValue2(e.target.value);
   };
   return (
